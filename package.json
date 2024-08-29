@@ -1,0 +1,16 @@
+{
+  "name": "milisrv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "million.js",
+  "license": "ISC",
+  "description": "This is a simple project to upload in vercel",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
