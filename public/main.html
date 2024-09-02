@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola!</title>
+    <title>Portafolio de Desarrollador</title>
+    <meta name="description" content="Portafolio de un desarrollador web especializado en multiples disciplinas. Descubre mis proyectos y habilidades.">
+    <meta name="keywords" content="desarrollador web, JavaScript, Node.js, Express, portafolio, proyectos, habilidades">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://milipf.vercel.app/">
+    <link rel="stylesheet" href="css/norm.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Bienvenido a la pagina principal de un proyecto que usa Express y Node.Js</h1>
+    <header>
+        <h1>Bienvenido a mi Portafolio</h1>
+        <p>Soy un desarrollador web especializado en JavaScript, Python, C#, C++, GDScript, HTML5, CSS, Java y TypeScript. Aquí encontrarás información sobre mi, mis proyectos y mis habilidades.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Sección Sobre Mí -->
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy Million, un apasionado desarrollador web con experiencia en la creación de aplicaciones eficientes y escalables. Mi enfoque principal es en el desarrollo backend con Node.js y Express, pero también tengo algo de experiencia en frontend.</p>
+            <img src="images/profile.jpg" alt="Foto de Million" width="200">
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="projects">
+            <h2>Proyectos Destacados</h2>
+            <article>
+                <h3>Proyecto 1: Aplicación de Tareas</h3>
+                <p>Una aplicación de gestión de tareas construida con Node.js y Express, que permite a los usuarios organizar y priorizar sus tareas diarias. <a href="https://github.com/tunombre/proyecto1">Ver en GitHub</a></p>
+            </article>
+            <article>
+                <h3>Proyecto 2: Sitio Web de Comercio Electrónico</h3>
+                <p>Desarrollé un sitio web de comercio electrónico con React y Node.js, ofreciendo a los usuarios una experiencia de compra fluida e intuitiva. <a href="https://github.com/tunombre/proyecto2">Ver en GitHub</a></p>
+            </article>
+            <!-- Agrega más proyectos según sea necesario -->
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>JavaScript (ES6+)</li>
+                <li>Node.js y Express</li>
+                <li>HTML5 y CSS3</li>
+                <li>Git y GitHub</li>
+                <li>APIs RESTful</li>
+                <!-- Agrega más habilidades según sea necesario -->
+            </ul>
+        </section>
+
+        <!-- Formulario de Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si estás interesado en trabajar conmigo o tienes alguna pregunta, no dudes en contactarme.</p>
+        <form action="https://formspree.io/f/movarzbp" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br>
+    
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea><br>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/tunombre">LinkedIn</a></li>
+            <li><a href="https://github.com/tunombre">GitHub</a></li>
+            <!-- Agrega más enlaces a redes sociales o plataformas relevantes -->
+        </ul>
+    </footer>
 </body>
 </html>
